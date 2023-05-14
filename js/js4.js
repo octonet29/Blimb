@@ -6,13 +6,13 @@ $(function () {
   var textAlert = ["Ну же", "Время пришло"];
 
   if ($.browser.mozilla) {
-    var audio1 = new Audio("audio/audio1.ogg");
-    var audio2 = new Audio("audio/audio2.oga");
-    var audio3 = new Audio("audio/audio3.oga");
+    var audio1 = new Audio("../audio/audio1.ogg");
+    var audio2 = new Audio("../audio/audio2.oga");
+    var audio3 = new Audio("../audio/audio3.oga");
   } else {
-    var audio1 = new Audio("audio/audio1.wav");
-    var audio2 = new Audio("audio/audio2.wav");
-    var audio3 = new Audio("audio/audio3.wav");
+    var audio1 = new Audio("../audio/audio1.wav");
+    var audio2 = new Audio("../audio/audio2.wav");
+    var audio3 = new Audio("../audio/audio3.wav");
   }
   $(".mini").click(function () {
     if ($(this).hasClass("active")) {
