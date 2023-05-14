@@ -1,7 +1,6 @@
 # blimb
-Blimb - is an application for eye training
 
-Clone remository `git clone https://github.com/dima344462/blimb.git`
+Blimb - is an application for eye training
 
 Go to folder - `cd blimb`
 
