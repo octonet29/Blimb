@@ -1,0 +1,24 @@
+{
+  "name": "blimb",
+  "version": "1.0.0",
+  "description": "Application for eye training and relaxation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Blimb",
+    "eyes",
+    "training",
+    "exercises",
+    "health"
+  ],
+  "author": "Dmitrii Pokhilenko",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "devtron": "^1.4.0",
+    "electron": "^9.4.0",
+    "spectron": "^11.1.0"
+  }
+}
